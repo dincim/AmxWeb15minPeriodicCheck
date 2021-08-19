@@ -21,7 +21,7 @@ public class BaseTest {
 	
 	@Parameters({"browser", "platform", "version"})
 	@BeforeMethod
-	public void setUp(String browserName, String platformName, String versionName,Method name  ) {
+	public void setUp(String browserName, String platformName, String versionName, Method name  ) {
 
 		System.out.println("browser name is : " + browserName);
 		String methodName = name.getName();
@@ -38,6 +38,7 @@ public class BaseTest {
 		cap.setCapability("sauce:options", sauceOpts);
 		cap.setCapability("browserVersion", versionName);
 		cap.setCapability("platformName", platformName);
+		//cap.setCapability("tunnelidentifier", id);
 
 		if (browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
