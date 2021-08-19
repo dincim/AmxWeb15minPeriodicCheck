@@ -2,94 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-19T13:31:25 CDT" name="AmaxWebSite and Quote engine 15 min. check test suite" finished-at="2021-08-19T13:32:21 CDT" duration-ms="56231">
+  <suite started-at="2021-08-19T15:48:29 CDT" name="AmaxWebSite and Quote engine 15 min. check test suite" finished-at="2021-08-19T15:49:21 CDT" duration-ms="51561">
     <groups>
     </groups>
-    <test started-at="2021-08-19T13:31:25 CDT" name="Sauce Test - Chrome" finished-at="2021-08-19T13:32:09 CDT" duration-ms="44892">
+    <test started-at="2021-08-19T15:48:29 CDT" name="Sauce Test - FF" finished-at="2021-08-19T15:49:17 CDT" duration-ms="47600">
       <class name="amaxwebsite15mincheck.AmaxWebsiteTest15">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T13:31:25 CDT" name="setUp" finished-at="2021-08-19T13:31:38 CDT" duration-ms="13516" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[macOS 10.15]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[80.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[MuraD]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[public void amaxwebsite15mincheck.AmaxWebsiteTest15.amaxQuoteEnginePageTitleTest() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="amaxQuoteEnginePageTitleTest()[pri:1, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T13:31:38 CDT" name="amaxQuoteEnginePageTitleTest" finished-at="2021-08-19T13:31:54 CDT" duration-ms="16002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amaxQuoteEnginePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T13:31:54 CDT" name="tearDown" finished-at="2021-08-19T13:31:55 CDT" duration-ms="363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T13:31:55 CDT" name="setUp" finished-at="2021-08-19T13:32:05 CDT" duration-ms="10421" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[macOS 10.15]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[80.0]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[MuraD]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[public void amaxwebsite15mincheck.AmaxWebsiteTest15.amaxWebSiteHomePageTitleTest()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="amaxWebSiteHomePageTitleTest()[pri:2, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T13:32:05 CDT" name="amaxWebSiteHomePageTitleTest" finished-at="2021-08-19T13:32:09 CDT" duration-ms="4160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amaxWebSiteHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T13:32:09 CDT" name="tearDown" finished-at="2021-08-19T13:32:09 CDT" duration-ms="384" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- amaxwebsite15mincheck.AmaxWebsiteTest15 -->
-    </test> <!-- Sauce Test - Chrome -->
-    <test started-at="2021-08-19T13:31:25 CDT" name="Sauce Test - FF" finished-at="2021-08-19T13:32:21 CDT" duration-ms="56231">
-      <class name="amaxwebsite15mincheck.AmaxWebsiteTest15">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T13:31:25 CDT" name="setUp" finished-at="2021-08-19T13:31:39 CDT" duration-ms="14780" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T15:48:29 CDT" name="setUp" finished-at="2021-08-19T15:48:43 CDT" duration-ms="14259" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,11 +26,6 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[MuraD]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[public void amaxwebsite15mincheck.AmaxWebsiteTest15.amaxQuoteEnginePageTitleTest() throws java.lang.InterruptedException]]>
               </value>
             </param>
@@ -120,15 +33,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="amaxQuoteEnginePageTitleTest()[pri:1, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T13:31:39 CDT" name="amaxQuoteEnginePageTitleTest" finished-at="2021-08-19T13:31:53 CDT" duration-ms="13489" status="PASS">
+        <test-method signature="amaxQuoteEnginePageTitleTest()[pri:1, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T15:48:43 CDT" name="amaxQuoteEnginePageTitleTest" finished-at="2021-08-19T15:48:56 CDT" duration-ms="12523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amaxQuoteEnginePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T13:31:53 CDT" name="tearDown" finished-at="2021-08-19T13:31:54 CDT" duration-ms="931" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T15:48:56 CDT" name="tearDown" finished-at="2021-08-19T15:48:57 CDT" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T13:31:54 CDT" name="setUp" finished-at="2021-08-19T13:32:12 CDT" duration-ms="17775" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T15:48:57 CDT" name="setUp" finished-at="2021-08-19T15:49:11 CDT" duration-ms="14613" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,11 +60,6 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[MuraD]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
                 <![CDATA[public void amaxwebsite15mincheck.AmaxWebsiteTest15.amaxWebSiteHomePageTitleTest()]]>
               </value>
             </param>
@@ -159,15 +67,87 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="amaxWebSiteHomePageTitleTest()[pri:2, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T13:32:12 CDT" name="amaxWebSiteHomePageTitleTest" finished-at="2021-08-19T13:32:21 CDT" duration-ms="8966" status="PASS">
+        <test-method signature="amaxWebSiteHomePageTitleTest()[pri:2, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T15:49:11 CDT" name="amaxWebSiteHomePageTitleTest" finished-at="2021-08-19T15:49:16 CDT" duration-ms="5247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amaxWebSiteHomePageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T13:32:21 CDT" name="tearDown" finished-at="2021-08-19T13:32:21 CDT" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@7671cb68]" started-at="2021-08-19T15:49:16 CDT" name="tearDown" finished-at="2021-08-19T15:49:17 CDT" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- amaxwebsite15mincheck.AmaxWebsiteTest15 -->
     </test> <!-- Sauce Test - FF -->
+    <test started-at="2021-08-19T15:48:29 CDT" name="Sauce Test - Chrome" finished-at="2021-08-19T15:49:21 CDT" duration-ms="51561">
+      <class name="amaxwebsite15mincheck.AmaxWebsiteTest15">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T15:48:29 CDT" name="setUp" finished-at="2021-08-19T15:48:40 CDT" duration-ms="11001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void amaxwebsite15mincheck.AmaxWebsiteTest15.amaxQuoteEnginePageTitleTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="amaxQuoteEnginePageTitleTest()[pri:1, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T15:48:40 CDT" name="amaxQuoteEnginePageTitleTest" finished-at="2021-08-19T15:48:59 CDT" duration-ms="18792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amaxQuoteEnginePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T15:48:59 CDT" name="tearDown" finished-at="2021-08-19T15:48:59 CDT" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method)[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T15:48:59 CDT" name="setUp" finished-at="2021-08-19T15:49:13 CDT" duration-ms="13883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[80.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void amaxwebsite15mincheck.AmaxWebsiteTest15.amaxWebSiteHomePageTitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="amaxWebSiteHomePageTitleTest()[pri:2, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T15:49:13 CDT" name="amaxWebSiteHomePageTitleTest" finished-at="2021-08-19T15:49:20 CDT" duration-ms="6784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amaxWebSiteHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amaxwebsite15mincheck.AmaxWebsiteTest15@156b88f5]" started-at="2021-08-19T15:49:20 CDT" name="tearDown" finished-at="2021-08-19T15:49:21 CDT" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amaxwebsite15mincheck.AmaxWebsiteTest15 -->
+    </test> <!-- Sauce Test - Chrome -->
   </suite> <!-- AmaxWebSite and Quote engine 15 min. check test suite -->
 </testng-results>
