@@ -5,9 +5,9 @@
     <classes>
       <class name="amaxwebsite15mincheck.AmaxWebsiteTest15">
         <methods>
+          <include name="amaxQuoteEnginePageTitleTest"/>
           <include name="amaxWebSiteHomePageTitleTest"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- amaxwebsite15mincheck.AmaxWebsiteTest15 -->
     </classes>

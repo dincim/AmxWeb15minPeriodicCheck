@@ -5,10 +5,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -58,7 +60,10 @@ public class BaseTest {
 	}
 
 	@AfterMethod(alwaysRun = true)
-	public void tearDown() {
+	public void tearDown(ITestResult result) throws Exception {
+		//public void tearDown() {
+		((JavascriptExecutor) driver).executeScript("sauce:job-result=passed" + (result.isSuccess()? "passed" : "failed"));
+		
 		driver.quit();
 	}
 
